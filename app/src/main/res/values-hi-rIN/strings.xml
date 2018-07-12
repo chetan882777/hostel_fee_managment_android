@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">आईजी छात्रावास</string>
+    <string name="action_settings">सेटिंग</string>
+    <string name="aaiji_a">आईजी  छात्रावास  \'A\'</string>
+    <string name="aaiji_b">आईजी  छात्रावास  \'B\'</string>
+    <string name="aaiji_c">आईजी  छात्रावास \'C\'</string>
+    <string name="jijisa">जिजी सा  छात्रावास</string>
+    <string name="branch_view_all_student_button">सभी छात्रों को देखें</string>
+</resources>

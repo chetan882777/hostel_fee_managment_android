@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Aaiji Hostel</string>
     <string name="action_settings">Settings</string>
+    <string name="aaiji_a">Aaiji Hostel \'A\'</string>
+    <string name="aaiji_b">Aaiji Hostel \'B\'</string>
+    <string name="aaiji_c">Aaiji Hostel \'C\'</string>
+    <string name="jijisa">Jijisa Hostel</string>
+    <string name="branch_view_all_student_button">View All Students</string>
 </resources>
