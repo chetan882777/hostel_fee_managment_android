@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_hostel_options">
+        <item>@string/aaiji_a</item>
+        <item>@string/aaiji_b</item>
+        <item>@string/aaiji_c</item>
+        <item>@string/jijisa</item>
+    </array>
+
+
+    <array name="array_fee_options">
+        <item>@string/text_view_hostel_fee</item>
+        <item>@string/fee1500</item>
+        <item>@string/fee1600</item>
+        <item>@string/fee1700</item>
+        <item>@string/fee1800</item>
+        <item>@string/fee1900</item>
+        <item>@string/fee2000</item>
+        <item>@string/fee2100</item>
+        <item>@string/fee2200</item>
+        <item>@string/fee2300</item>
+        <item>@string/fee2400</item>
+        <item>@string/fee2500</item>
+        <item>@string/fee2600</item>
+        <item>@string/fee2700</item>
+        <item>@string/fee2800</item>
+        <item>@string/fee2900</item>
+        <item>@string/fee3000</item>
+        <item>@string/fee15000</item>
+        <item>@string/fee16000</item>
+        <item>@string/fee17000</item>
+        <item>@string/fee18000</item>
+        <item>@string/fee19000</item>
+        <item>@string/fee20000</item>
+        <item>@string/fee21000</item>
+        <item>@string/fee22000</item>
+        <item>@string/fee23000</item>
+        <item>@string/fee24000</item>
+        <item>@string/fee25000</item>
+        <item>@string/fee26000</item>
+        <item>@string/fee27000</item>
+        <item>@string/fee28000</item>
+        <item>@string/fee29000</item>
+        <item>@string/fee30000</item>
+     </array>
+
+    <array name="array_class_options">
+        <item>@string/edit_text_class_input_hint</item>
+        <item>@string/class_n</item>
+        <item>@string/class_kg1</item>
+        <item>@string/class_kg2</item>
+        <item>@string/class_1</item>
+        <item>@string/class_2</item>
+        <item>@string/class_3</item>
+        <item>@string/class_4</item>
+        <item>@string/class_5</item>
+        <item>@string/class_6</item>
+        <item>@string/class_7</item>
+        <item>@string/class_8</item>
+        <item>@string/class_9</item>
+        <item>@string/class_10</item>
+        <item>@string/class_11</item>
+        <item>@string/class_12</item>
+        <item>@string/class_13</item>
+        <item>@string/class_14</item>
+        <item>@string/class_15</item>
+        <item>@string/class_16</item>
+        <item>@string/class_17</item>
+    </array>
+
+
+    <array name="array_age_options">
+        <item>@string/text_view_age</item>
+        <item>@string/age_3</item>
+        <item>@string/age_4</item>
+        <item>@string/age_5</item>
+        <item>@string/age_6</item>
+        <item>@string/age_7</item>
+        <item>@string/age_8</item>
+        <item>@string/age_9</item>
+        <item>@string/age_10</item>
+        <item>@string/age_11</item>
+        <item>@string/age_12</item>
+        <item>@string/age_13</item>
+        <item>@string/age_14</item>
+        <item>@string/age_15</item>
+        <item>@string/age_16</item>
+        <item>@string/age_17</item>
+        <item>@string/age_18</item>
+        <item>@string/age_19</item>
+        <item>@string/age_20</item>
+        <item>@string/age_21</item>
+        <item>@string/age_22</item>
+        <item>@string/age_23</item>
+        <item>@string/age_24</item>
+    </array>
+
+    <array name="array_last_result_options">
+        <item>@string/text_view_last_result</item>
+        <item>@string/last_result_fail</item>
+        <item>@string/last_result_grade_A</item>
+        <item>@string/last_result_grade_B</item>
+        <item>@string/last_result_grade_C</item>
+        <item>@string/last_result_grade_D</item>
+    </array>
+</resources>

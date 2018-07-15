@@ -9,7 +9,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import com.heptware.android.aaijihostel.data.fakeData;
+
+import java.util.ArrayList;
+
+import static com.heptware.android.aaijihostel.data.fakeData.getFakeData;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,14 +34,35 @@ public class MainActivity extends AppCompatActivity {
         // and fetch string from it for listing pourpose.
         recievedString = intent.getStringExtra("students");
 
+        StudentAdapterSetter();
+        // same class method called for initializing adapter
+
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+         //       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+          //              .setAction("Action", null).show();
+
+                Intent intent1 = new Intent(MainActivity.this ,StudentEdit.class);
+                startActivity(intent1);
             }
         });
+    }
+
+    private void StudentAdapterSetter(){
+        ArrayList<fakeData> studentData = getFakeData();
+        // get data from fake data class
+
+        StudentAdapter adapter = new StudentAdapter(this , studentData);
+        // initializing adapter by constructer by passing list of students
+
+        ListView listView = (ListView) findViewById(R.id.main_student_list_view);
+        // get id of holding Students list's view (listView).
+
+        listView.setAdapter(adapter);
+        // finally setted adapter to listview.
     }
 
     @Override

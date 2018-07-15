@@ -1,9 +1,131 @@
 <resources>
     <string name="app_name">Aaiji Hostel</string>
+
+    <!--================== menu bar actions ===============-->
     <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_clear_all">Clear all</string>
+
+    <!--================ hostel names ====================-->
     <string name="aaiji_a">Aaiji Hostel \'A\'</string>
     <string name="aaiji_b">Aaiji Hostel \'B\'</string>
     <string name="aaiji_c">Aaiji Hostel \'C\'</string>
     <string name="jijisa">Jijisa Hostel</string>
+
+    <!--=============== view all studnts btn ========================-->
     <string name="branch_view_all_student_button">View All Students</string>
+
+    <!--=========== edit stdudents field hints and textViews=============== -->
+    <string name="edit_text_name_input_hint">Name</string>
+    <string name="edit_text_phone_input_hint">Phone</string>
+    <string name="edit_text_class_input_hint">Class</string>
+    <string name="edit_text_school_input_hint">School</string>
+    <string name="edit_text_father_name_input_hint">Father Name</string>
+    <string name="edit_text_father_occupation_input_hint">Father\'s Occupation</string>
+    <string name="edit_text_mother_name_input_hint">Mother Name</string>
+    <string name="edit_text_mother_name_occupation_hint">Mother\'s Occupation</string>
+    <string name="edit_text_extra_phone1_input_hint">Extra Phone 1</string>
+    <string name="edit_text_extra_phone2_input_hint">Extra Phone 2</string>
+    <string name="text_view_hostel_branch">Aaiji Hostel</string>
+    <string name="text_view_hostel_fee">Fee</string>
+    <string name="text_view_age">Age</string>
+    <string name="text_view_last_result">Last Result</string>
+
+
+
+    <!--============= fee monthly Strings for dropdown =============-->
+    <string name="fee1500">  1500  </string>
+    <string name="fee1600">  1600  </string>
+    <string name="fee1700">  1700  </string>
+    <string name="fee1800"> 1800 </string>
+    <string name="fee1900"> 1900 </string>
+    <string name="fee2000">2000</string>
+    <string name="fee2100">2100</string>
+    <string name="fee2200">2200</string>
+    <string name="fee2300">2300</string>
+    <string name="fee2400">2400</string>
+    <string name="fee2500">2500</string>
+    <string name="fee2600">2600</string>
+    <string name="fee2700">2700</string>
+    <string name="fee2800">2800</string>
+    <string name="fee2900">2900</string>
+    <string name="fee3000">3000</string>
+
+    <!--============= yearly fee Strings for dropdown =============-->
+    <string name="fee15000">15000</string>
+    <string name="fee16000">16000</string>
+    <string name="fee17000">17000</string>
+    <string name="fee18000">18000</string>
+    <string name="fee19000">19000</string>
+    <string name="fee20000">20000</string>
+    <string name="fee21000">21000</string>
+    <string name="fee22000">22000</string>
+    <string name="fee23000">23000</string>
+    <string name="fee24000">24000</string>
+    <string name="fee25000">25000</string>
+    <string name="fee26000">26000</string>
+    <string name="fee27000">27000</string>
+    <string name="fee28000">28000</string>
+    <string name="fee29000">29000</string>
+    <string name="fee30000">30000</string>
+
+
+    <!--============ strings for class dropdown ===========-->
+    <string name="class_n">Nursary</string>
+    <string name="class_kg1">KG I</string>
+    <string name="class_kg2">KG II</string>
+    <string name="class_1">1 - One</string>
+    <string name="class_2">2 - Two</string>
+    <string name="class_3">3 - Three</string>
+    <string name="class_4">4 - Four</string>
+    <string name="class_5">5 - Five</string>
+    <string name="class_6">6 - Six</string>
+    <string name="class_7">7 - Seven</string>
+    <string name="class_8">8 - Eight</string>
+    <string name="class_9">9 - Nine</string>
+    <string name="class_10">10 - Ten</string>
+    <string name="class_11">11 - Eleven</string>
+    <string name="class_12">12 - Towlve</string>
+    <string name="class_13">I - First year</string>
+    <string name="class_14">II - Second year</string>
+    <string name="class_15">III - Thired year</string>
+    <string name="class_16">IV - Fourth year</string>
+    <string name="class_17">V - Fifth year</string>
+
+
+    <!--=================== strings for age dropdown ===================-->
+    <string name="age_3">3 - Three</string>
+    <string name="age_4">4 - Four</string>
+    <string name="age_5">5 - Five</string>
+    <string name="age_6">6 - Six</string>
+    <string name="age_7">7 - Seven</string>
+    <string name="age_8">8 - Eight</string>
+    <string name="age_9">9 - nine</string>
+    <string name="age_10">10 - Ten</string>
+    <string name="age_11">11 - Eleven</string>
+    <string name="age_12">12 - Towlve</string>
+    <string name="age_13">13 - Thirteen</string>
+    <string name="age_14">14 - Fourteen</string>
+    <string name="age_15">15 - Fifteen</string>
+    <string name="age_16">16 - Sixteen</string>
+    <string name="age_17">17 - Seventeen</string>
+    <string name="age_18">18 - Eighteen</string>
+    <string name="age_19">19 - Nineteen</string>
+    <string name="age_20">20 - Twenty</string>
+    <string name="age_21">21 - Twenty one</string>
+    <string name="age_22">22 - Twenty two</string>
+    <string name="age_23">23 - Twenty three</string>
+    <string name="age_24">24 - Twenty four</string>
+
+
+    <!--===================== strings for last result dropdown ==========================-->
+    <string name="last_result_fail">Fail</string>
+    <string name="last_result_grade_D">Grade D</string>
+    <string name="last_result_grade_C">Grade C</string>
+    <string name="last_result_grade_B">Grade B</string>
+    <string name="last_result_grade_A">Grade A</string>
+
+
+
+
 </resources>
