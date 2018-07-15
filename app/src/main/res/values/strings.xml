@@ -7,9 +7,9 @@
     <string name="action_clear_all">Clear all</string>
 
     <!--================ hostel names ====================-->
-    <string name="aaiji_a">Aaiji Hostel \'A\'</string>
-    <string name="aaiji_b">Aaiji Hostel \'B\'</string>
-    <string name="aaiji_c">Aaiji Hostel \'C\'</string>
+    <string name="aaiji_a">Aaiji Hostel A</string>
+    <string name="aaiji_b">Aaiji Hostel B</string>
+    <string name="aaiji_c">Aaiji Hostel C</string>
     <string name="jijisa">Jijisa Hostel</string>
 
     <!--=============== view all studnts btn ========================-->
@@ -71,7 +71,7 @@
 
 
     <!--============ strings for class dropdown ===========-->
-    <string name="class_n">Nursary</string>
+    <string name="class_n">Nursery</string>
     <string name="class_kg1">KG I</string>
     <string name="class_kg2">KG II</string>
     <string name="class_1">1 - One</string>

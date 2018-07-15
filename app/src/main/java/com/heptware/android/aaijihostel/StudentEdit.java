@@ -45,9 +45,9 @@ public class StudentEdit extends AppCompatActivity {
         // the spinner will use the default layout
         ArrayAdapter spinnerAdapter = ArrayAdapter.createFromResource(this,
                 id, android.R.layout.simple_spinner_item);
-
         // Specify dropdown layout style - simple list view with 1 item per line
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+
 
 
         // Apply the adapter to the spinner

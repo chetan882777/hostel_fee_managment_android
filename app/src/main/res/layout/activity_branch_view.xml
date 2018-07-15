@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    tools:background="#ebebeb">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".BranchView">
+
+
+            <ImageView
+                android:id="@+id/branch_view_aaiji_a_image"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="false"
+                android:background="@android:color/white"
+                android:cropToPadding="false"
+                android:elevation="2dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/branch_view_aaiji_a_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:textColor="@color/colorPrimaryText"
+                android:elevation="4dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/aaiji_a"
+                app:layout_constraintEnd_toEndOf="@+id/branch_view_aaiji_a_image"
+                app:layout_constraintStart_toStartOf="@+id/branch_view_aaiji_a_image"
+                app:layout_constraintTop_toBottomOf="@+id/branch_view_aaiji_a_image" />
+
+            <ImageView
+                android:id="@+id/branch_view_aaiji_b_image"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="false"
+                android:background="@android:color/white"
+                android:cropToPadding="false"
+                android:elevation="2dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintEnd_toEndOf="@+id/branch_view_aaiji_a_button"
+                app:layout_constraintStart_toStartOf="@+id/branch_view_aaiji_a_button"
+                app:layout_constraintTop_toBottomOf="@+id/branch_view_aaiji_a_button" />
+
+            <Button
+                android:id="@+id/branch_view_aaiji_b_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:textColor="@color/colorPrimaryText"
+                android:elevation="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/aaiji_b"
+                app:layout_constraintEnd_toEndOf="@+id/branch_view_aaiji_b_image"
+                app:layout_constraintStart_toStartOf="@+id/branch_view_aaiji_b_image"
+                app:layout_constraintTop_toBottomOf="@+id/branch_view_aaiji_b_image" />
+
+
+            <ImageView
+                android:id="@+id/branch_view_aaiji_c_image"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="false"
+                android:background="@android:color/white"
+                android:cropToPadding="false"
+                android:elevation="2dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintEnd_toEndOf="@+id/branch_view_aaiji_b_button"
+                app:layout_constraintStart_toStartOf="@+id/branch_view_aaiji_b_button"
+                app:layout_constraintTop_toBottomOf="@+id/branch_view_aaiji_b_button" />
+
+            <Button
+                android:id="@+id/branch_view_aaiji_c_button"
+                style="?attr/buttonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:textColor="@color/colorPrimaryText"
+                android:elevation="2dp"
+                android:text="@string/aaiji_c"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:layout_constraintEnd_toEndOf="@+id/branch_view_aaiji_c_image"
+                app:layout_constraintStart_toStartOf="@+id/branch_view_aaiji_c_image"
+                app:layout_constraintTop_toBottomOf="@+id/branch_view_aaiji_c_image" />
+
+            <ImageView
+                android:id="@+id/branch_view_jijisa_image"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="false"
+                android:background="@android:color/white"
+                android:cropToPadding="false"
+                android:elevation="2dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintEnd_toEndOf="@+id/branch_view_aaiji_c_button"
+                app:layout_constraintStart_toStartOf="@+id/branch_view_aaiji_c_button"
+                app:layout_constraintTop_toBottomOf="@+id/branch_view_aaiji_c_button" />
+
+            <Button
+                android:id="@+id/branch_view_jijisa_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:background="@android:color/white"
+                android:textColor="@color/colorPrimaryText"
+                android:elevation="2dp"
+                android:text="@string/jijisa"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:layout_constraintEnd_toEndOf="@+id/branch_view_jijisa_image"
+                app:layout_constraintStart_toStartOf="@+id/branch_view_jijisa_image"
+                app:layout_constraintTop_toBottomOf="@+id/branch_view_jijisa_image" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/branch_view_all_students_button" />
+
+    <Button
+        android:id="@+id/branch_view_all_students_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimaryText"
+        android:text="@string/branch_view_all_student_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView2"
+        app:layout_constraintStart_toEndOf="@+id/scrollView2" />
+</android.support.constraint.ConstraintLayout>
